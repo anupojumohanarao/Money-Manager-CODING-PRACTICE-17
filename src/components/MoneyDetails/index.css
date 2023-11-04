@@ -1,0 +1,89 @@
+/* Write your CSS here */
+.money-details-section {
+  display: flex;
+  width: 100%;
+  margin-bottom: 32px;
+  margin-top: 32px;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .money-details-section {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.main-balance-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+  border-width: 1px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .main-balance-container {
+    width: 30%;
+    margin-right: 0px;
+  }
+}
+
+.main-income-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+  width: 100%;
+  border-width: 1px;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .main-income-container {
+    width: 30%;
+    margin-top: 0px;
+  }
+}
+
+.main-expenses-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+  border-width: 1px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .main-expenses-container {
+    width: 30%;
+    margin-top: 0px;
+  }
+}
+
+.section-text {
+  color: #7e858e;
+  font-weight: 500;
+  font-family: 'Roboto';
+  font-size: 17px;
+}
+
+.section-amount {
+  color: #7e858e;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.image-icon {
+  margin: 20px;
+  height: 20%;
+  width: 20%;
+}
